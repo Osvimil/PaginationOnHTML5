@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: crimson;
+    font-family: sans-serif;
+    color:cornsilk;
+}
+
+h1{
+    margin-bottom: 1em;
+}
+
+section{
+    text-align: justify;
+    width: 500px;
+    margin:20px auto;
+    
+}
+section p{
+    margin-bottom: 1em;
+    
+}
+
+.paginacion{
+    margin:20px 0;
+    
+}
+.paginacion ul{
+    list-style: none;
+    text-align: center;
+    
+}
+.paginacion ul li{
+    display: inline-block;
+    margin-right: 10px;
+    
+}
+.paginacion ul li a{
+    
+    display: block;
+    padding:10px 20px;
+    color:#fff;
+    text-decoration: none;
+    background-color:#024959;
+    
+}
+
+.paginacion ul li a:hover{
+    background-color: #fff;
+    color:#024959;
+}
+.paginacion ul li .activo{
+    color:#024959;
+    background: #fff;
+    font-weight: bold;
+}
